@@ -7,10 +7,22 @@
   <%= stylesheet_link_tag 'https://fonts.googleapis.com/icon?family=Material+Icons'%>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-  
+
 </head>
 <body>
-
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo"> logo </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#Countries">Countries</a></li>
+          <li><a href="#Languages">Languages</a></li>
+          <li><a href="#Mission">Mission</a></li>
+          <li><a href="#FAQ">FAQ</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 <%= yield %>
 
 </body>
