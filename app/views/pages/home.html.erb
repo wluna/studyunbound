@@ -1,6 +1,45 @@
 <div class="parallax-container">
-  <div class="parallax"> <%= image_tag("temple.jpg", :alt => "rss feed") %></div>
+  <div class="parallax"> <%= image_tag("temple.jpg", :alt => "rss feed") %>
+  </div>
+  
+  <div class="row"></div>
+  <div class="row"></div>
+  <div class="row"></div>
+  <div class="row"></div>
+  <div class="row"></div>
+  <div class="row"></div>
+  <div class="row"></div>
+  <div class="row"></div>
+  <div class="row"></div>
+
+  <div class="container">
+    <nav>
+      <div class="nav-wrapper">
+        <form>
+          <div class="input-field">
+            <input id="search" type="search" required placeholder="Search Language, Country, or Region.">
+            <label for="search"><i class="material-icons">search</i></label>
+            <i class="material-icons">close</i>
+          </div>
+        </form>
+      </div>
+    </nav>
+  </div>
+
+  <div class="row"></div>
+  <div class="row"></div>
+  <div class="row"></div>
+  <div class="row"></div>
+  <div class="row"></div>
+  <div class="row"></div>
+  <div class="row"></div>
+  <div class="row"></div>
+  <div class="row"></div>
+  <i class="large material-icons">insert_play_for_work</i>
+  <div class="row"></div>
+
 </div>
+
 
 <h1><a id="Countries"></a></h1>
 <div class="row">
@@ -41,16 +80,56 @@
 
 <div class="container">
     <div class="row">
-      <div class="col s6 offset-s2">
+
+      <div class="col s4">
+        <ul class="collapsible" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header"><i class="material-icons">filter_drama</i>English</div>
+
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">filter_drama</i>Spanish</div>
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">place</i>French</div>
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">whatshot</i>German</div>
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col s4">
         <div class="card-panel">
-            <span class="blue-text text-darken-2">Languages</span>
-            <span class="card-content black-text">
-              <p>There are many countries in the world. 
-              It would not be hard for you to study at any of them.
-              Studying is good. 
-              Countries are good. </p>
-            </span>
+        <%= image_tag("japan.jpg", :alt => "rss feed", class: "img-responsive") %>
+
         </div>
+      </div>
+
+      <div class="col s4">
+        <ul class="collapsible" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header"><i class="material-icons">filter_drama</i>Italian</div>
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">language</i>Chinese</div>
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <%= image_tag("japan.jpg", :alt => "rss feed", class: "img-responsive") %>   Japanese</div>
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="material-icons">whatshot</i>More</div>
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+          </li>
+        </ul>
       </div>
     </div>
 </div>
