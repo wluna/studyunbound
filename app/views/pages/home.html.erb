@@ -17,7 +17,7 @@
       <div class="nav-wrapper">
         <form>
           <div class="input-field">
-            <input id="search" type="search" required placeholder="Search Language, Country, or Region.">
+            <input id="search" type="search" required placeholder="Search By Language, Country, or Region">
             <label for="search"><i class="material-icons">search</i></label>
             <i class="material-icons">close</i>
           </div>
@@ -25,18 +25,6 @@
       </div>
     </nav>
   </div>
-
-  <div class="row"></div>
-  <div class="row"></div>
-  <div class="row"></div>
-  <div class="row"></div>
-  <div class="row"></div>
-  <div class="row"></div>
-  <div class="row"></div>
-  <div class="row"></div>
-  <div class="row"></div>
-  <i class="large material-icons">insert_play_for_work</i>
-  <div class="row"></div>
 
 </div>
 
@@ -84,20 +72,24 @@
       <div class="col s4">
         <ul class="collapsible" data-collapsible="accordion">
           <li>
-            <div class="collapsible-header"><i class="material-icons">filter_drama</i>English</div>
+            <div class="collapsible-header hoverable waves-effect">
+              <%= image_tag("english.jpg", :alt => "rss feed", class: "img-responsive") %>   English</div>
 
             <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
           </li>
           <li>
-            <div class="collapsible-header"><i class="material-icons">filter_drama</i>Spanish</div>
+            <div class="collapsible-header hoverable waves-effect">
+              <%= image_tag("spanish.jpg", :alt => "rss feed", class: "img-responsive") %>   Spanish</div>
             <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
           </li>
           <li>
-            <div class="collapsible-header"><i class="material-icons">place</i>French</div>
+            <div class="collapsible-header hoverable waves-effect">
+              <%= image_tag("french.jpg", :alt => "rss feed", class: "img-responsive") %>    French</div>
             <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
           </li>
           <li>
-            <div class="collapsible-header"><i class="material-icons">whatshot</i>German</div>
+            <div class="collapsible-header hoverable waves-effect">
+              <%= image_tag("german.jpg", :alt => "rss feed", class: "img-responsive") %>   German</div>
             <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
           </li>
         </ul>
@@ -105,7 +97,7 @@
 
       <div class="col s4">
         <div class="card-panel">
-        <%= image_tag("japan.jpg", :alt => "rss feed", class: "img-responsive") %>
+        Stuff
 
         </div>
       </div>
@@ -113,20 +105,23 @@
       <div class="col s4">
         <ul class="collapsible" data-collapsible="accordion">
           <li>
-            <div class="collapsible-header"><i class="material-icons">filter_drama</i>Italian</div>
+            <div class="collapsible-header hoverable waves-effect">
+              <%= image_tag("italian.jpg", :alt => "rss feed", class: "img-responsive") %>   Italian</div>
             <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
           </li>
           <li>
-            <div class="collapsible-header"><i class="material-icons">language</i>Chinese</div>
+            <div class="collapsible-header hoverable waves-effect">
+              <%= image_tag("chinese.jpg", :alt => "rss feed", class: "img-responsive") %>   Chinese</div>
             <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
           </li>
           <li>
-            <div class="collapsible-header">
-              <%= image_tag("japan.jpg", :alt => "rss feed", class: "img-responsive") %>   Japanese</div>
+            <div class="collapsible-header hoverable waves-effect">
+              <%= image_tag("japanese.jpg", :alt => "rss feed", class: "img-responsive") %>   Japanese</div>
             <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
           </li>
           <li>
-            <div class="collapsible-header"><i class="material-icons">whatshot</i>More</div>
+            <div class="collapsible-header hoverable waves-effect">
+              <%= image_tag("other.jpg", :alt => "rss feed", class: "img-responsive") %>    More</div>
             <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
           </li>
         </ul>
