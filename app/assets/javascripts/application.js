@@ -13,14 +13,16 @@
 //= require jquery
 //= require jquery_ujs
 //= require materialize-sprockets
-//= require turbolinks
 //= require_tree .
 
 $(document).ready(function(){
   $('.parallax').parallax();
 });
 
-$(".button-collapse").sideNav();
+$(document).ready(function(){
+  $(".button-collapse").sideNav();
+});
+
 
 $(document).ready(function(){
   $('.scrollspy').scrollSpy();
