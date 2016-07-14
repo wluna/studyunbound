@@ -1,5 +1,5 @@
 <div class="parallax-container">
-  <div class="parallax"> <%= image_tag("temple.jpg", :alt => "rss feed") %>
+  <div class="parallax"> <%= image_tag("brazil.jpg", :alt => "rss feed") %>
   </div>
   <div class="row"></div>
   <div class="row"></div>
@@ -8,12 +8,10 @@
   <div class="row"></div>
   <div class="row"></div>
   <div class="row"></div>
-  <div class="row"></div>
-  <div class="row"></div>
 
-  <div class="container">
-    <div class="center">
-        <a href= "#Languages" class="waves-effect waves-light btn-large red accent-2"> Find a Program </a>
+  <div class="container center">
+    <h1 class="text-white"> Study Unbound. </h1>
+      <a href= "#Languages" class="smoothScroll waves-effect waves-light btn-large red accent-2"> Find a Program </a>
     </div>
   </div>
 </div>
@@ -128,9 +126,11 @@
   <div class="row"></div>  
   <div class="row"></div>
 
+
+
   <div class="center">
-      <a href= "http://www.gooverseas.com/blog/perks-direct-enrollment-study-abroad" class="waves-effect waves-light btn-large red accent-2"> The Perks of Direct Enrollment </a>
-      <a href= "http://www.gooverseas.com/blog/should-you-study-abroad-through-direct-enrollment-or-program-provider" class="waves-effect waves-light btn-large red accent-2"> Direct Enrollment vs. Program Provider </a>
+      <a href= "http://www.gooverseas.com/blog/perks-direct-enrollment-study-abroad" class="waves-effect waves-light btn-large red accent-2" target="_blank"> The Perks of Direct Enrollment </a>
+      <a href= "http://www.gooverseas.com/blog/should-you-study-abroad-through-direct-enrollment-or-program-provider" class="waves-effect waves-light btn-large red accent-2" target="_blank"> Direct Enrollment vs. Program Provider </a>
   </div>
 
   <div class="row"></div>
@@ -212,29 +212,347 @@
 
 <a id="Languages"></a>
 
-<div class="parallax-container">
-  <div class="parallax"> <%= image_tag("end.jpg", :alt => "rss feed") %></div>
-  <div class="row"></div>
-  <div class="row"></div>
-  <div class="row"></div>
-  <div class="row"></div>
-  <div class="row"></div>
-  <div class="row"></div>
-  <div class="center white-text"> 
-    <h3> Let's Get Started. </h3>
+<div class="container">
+
+  <div class="row"></div> 
+
+  <div class="center"> 
+    <h3> Browse by language of instruction. </h3>
+    <h3> English is offered just about everywhere. </h3>
   </div>
 
   <div class="row"></div>
-  <div class="row"></div>
 
-  <div class="container">
-      <div class="center">
-          <a href= "english" class="waves-effect waves-light btn-large red accent-2">English</a>
-          <a href= "spanish" class="waves-effect waves-light btn-large red accent-2">Spanish</a>
-          <a href= "german" class="waves-effect waves-light btn-large red accent-2">German</a>
-          <a href= "portuguese" class="waves-effect waves-light btn-large red accent-2">Portuguese</a>
+  <div class="row">
+    <div class="col s12">
+      <ul class="tabs">
+        <li class="tab col s3"><a href="#english">English</a></li>
+        <li class="tab col s3"><a href="#spanish">Spanish</a></li>
+        <li class="tab col s3"><a href="#german">German</a></li>
+        <li class="tab col s3"><a href="#portuguese">Portuguese</a></li>
+      </ul>
+    </div>
+    <div id="english" class="col s12">
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image activator waves-effect waves-block waves-light">
+              <img class="activator" <%= image_tag("reyimg.jpg", :alt => "rss feed") %>
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Rekyavik University<i class="material-icons right">more_vert</i></span>
+                <p><a href="http://en.ru.is/application-process/">Visit site</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Rekyavik University<i class="material-icons right">close</i></span>
+              <p>Location: Rekyavik, Iceland</p>
+              <p>Tuition: $1,500 USD/semester</p>
+              <p>Enrollment: 3,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image activator waves-effect waves-block waves-light">
+              <img class="activator" <%= image_tag("zhaimg.jpg", :alt => "rss feed") %>
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">University of Zagreb<i class="material-icons right">more_vert</i></span>
+                <p><a href="http://www.efzg.unizg.hr/default.aspx?id=15594">Visit site</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">University of Zagreb<i class="material-icons right">close</i></span>
+              <p>Location: Zagreb, Croatia</p>
+              <p>Tuition: $1,200 USD/semester</p>
+              <p>Enrollment: 72,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image activator waves-effect waves-block waves-light">
+              <img class="activator" <%= image_tag("NTNU.jpg", :alt => "rss feed") %>
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"> NTNU (Norway) <i class="material-icons right">more_vert</i></span>
+                <p><a href="https://www.ntnu.edu/studies/visitng_and_exchange_students/free_mover">Visit site</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Norwegian Institute of Science and Technology<i class="material-icons right">close</i></span>
+              <p>Location: Trondheim, Norway</p>
+              <p>Tuition: free </p>
+              <p>Enrollment: 18,500</p>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image activator waves-effect waves-block waves-light">
+              <img class="activator" <%= image_tag("tampere.jpg", :alt => "rss feed") %>
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"> TUT (Finland) <i class="material-icons right">more_vert</i></span>
+                <p><a href="http://www.tut.fi/en/admissions/applying-to-tut/exchange-programmes/index.htm">Visit site</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Tampere University of Technology<i class="material-icons right">close</i></span>
+              <p>Location: Tampere, Finland</p>
+              <p>Tuition: free (until August 2017),</p>
+              <p>Enrollment: 18,500</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image activator waves-effect waves-block waves-light">
+              <img class="activator" <%= image_tag("warsaw.jpg", :alt => "rss feed") %>
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Univ. of Warsaw <i class="material-icons right">more_vert</i></span>
+                <p><a href="http://bwz.uw.edu.pl/en/incoming-students/visiting-students">Visit site</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">University of Warsaw<i class="material-icons right">close</i></span>
+              <p>Location: Warsaw, Poland</p>
+              <p>Tuition: $1,500 - $3,000 USD/semester,</p>
+              <p>depending on field of study</p>
+              <p>Enrollment: 45,000 </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image activator waves-effect waves-block waves-light">
+              <img class="activator" <%= image_tag("aarhus.jpg", :alt => "rss feed") %>
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Aarhus University <i class="material-icons right">more_vert</i></span>
+                <p><a href="http://www.au.dk/en/internationalcentre/international-students/freemoverstudents%28non-exchange%29/">Visit site</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Aarhus University<i class="material-icons right">close</i></span>
+              <p>Location: Aarhus, Denmark</p>
+              <p>Tuition: $2,000 - $3,500 USD/semester,</p>
+              <p>Enrollment: 45,000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card hoverable">
+            <div class="card-image activator waves-effect waves-block waves-light">
+              <img class="activator" <%= image_tag("charles.jpg", :alt => "rss feed") %>
+            </div>
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"> St. Charles University <i class="material-icons right">more_vert</i></span>
+                <p><a href="http://www.cuni.cz/UKEN-151.html">Visit site</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"> St. Charles University<i class="material-icons right">close</i></span>
+              <p>Location: Prague, Czech Republic</p>
+              <p>Tuition: $3,000 USD/semester</p>
+              <p>Enrollment: 50,000</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="spanish" class="col s12">
+      <div class="row">
+
+    <div class="col s12 m6 l4">
+      <div class="card hoverable">
+        <div class="card-image activator waves-effect waves-block waves-light">
+          <img class="activator" <%= image_tag("andes.jpg", :alt => "rss feed") %>
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Los Andes (Bogotá)<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://decanaturadeestudiantes.uniandes.edu.co/index.php/es/international-students/nomination--application-process">Visit site </a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4"> Universidad de Los Andes <i class="material-icons right">close</i></span>
+          <p>Location: Bogotá, Colombia </p>
+          <p>Tuition: $2,500 USD/semester </p>
+          <p>Enrollment: 13,000</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m6 l4">
+      <div class="card hoverable">
+        <div class="card-image activator waves-effect waves-block waves-light">
+          <img class="activator" <%= image_tag("quito.jpg", :alt => "rss feed") %>
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Univ. San Francisco<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://www.usfq.edu.ec/programas_internacionales/exchange_students/Paginas/english.aspx#demoTab1">Visit site</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4"> Universidad de San Francisco <i class="material-icons right">close</i></span>
+          <p>Location: Quito, Ecuador </p>
+          <p>Tuition: contact university </p>
+          <p>Enrollment: 4,500</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m6 l4">
+      <div class="card hoverable">
+        <div class="card-image activator waves-effect waves-block waves-light">
+          <img class="activator" <%= image_tag("chile.jpg", :alt => "rss feed") %>
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4"> Univ. de Santiago <i class="material-icons right">more_vert</i></span>
+            <p><a href="http://drii.usach.cl/content/preguntas-frecuentes-estudiantes-extranjeros">Visit site</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4"> Universidad de Santiago <i class="material-icons right">close</i></span>
+          <p>Location: Santiago, Chile </p>
+          <p>Tuition: contact university </p>
+          <p>Enrollment: 18,000 </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col s12 m6 l4">
+      <div class="card hoverable">
+        <div class="card-image activator waves-effect waves-block waves-light">
+          <img class="activator" <%= image_tag("nacional.jpg", :alt => "rss feed") %>
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4"> Univ. de Colombia <i class="material-icons right">more_vert</i></span>
+            <p><a href="http://www.dre.unal.edu.co/nc/esx/movilidad/entrante.html">Visit site</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4"> Universidad Nacional de Colombia <i class="material-icons right">close</i></span>
+          <p>Location: various, Colombia </p>
+          <p>Tuition: ~$500 USD/semester </p>
+          <p>Enrollment: various </p>
+        </div>
+      </div>
+    </div>
+   </div>
+    </div>
+    <div id="german" class="col s12">
+        <div class="row">
+    <div class="col s12 m6 l4">
+      <div class="card hoverable">
+        <div class="card-image activator waves-effect waves-block waves-light">
+          <img class="activator" <%= image_tag("hamburg.jpg", :alt => "rss feed") %>
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4"> Universität Hamburg <i class="material-icons right">more_vert</i></span>
+            <p><a href="https://www.uni-hamburg.de/en/campuscenter/bewerbung/international/freemover.html">Visit site</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Universität Hamburg<i class="material-icons right">close</i></span>
+          <p>Location: Hamburg, Germany</p>
+          <p>Tuition: free </p>
+          <p>Enrollment: 42,000</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l4">
+      <div class="card hoverable">
+        <div class="card-image activator waves-effect waves-block waves-light">
+          <img class="activator" <%= image_tag("freiburg.jpg", :alt => "rss feed") %>
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Universität Freiburg<i class="material-icons right">more_vert</i></span>
+            <p><a href="http://www.studium.uni-freiburg.de/studienbewerbung-en/international-en/short-term-studies">Visit site</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Universität Freiburg<i class="material-icons right">close</i></span>
+          <p>Location: Freiburg, Germany</p>
+          <p>Tuition: free </p>
+          <p>Enrollment: 26,000</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l4">
+      <div class="card hoverable">
+        <div class="card-image activator waves-effect waves-block waves-light">
+          <img class="activator" <%= image_tag("innsbruck.jpg", :alt => "rss feed") %>
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4"> Universität Innsbruck <i class="material-icons right">more_vert</i></span>
+            <p><a href="https://www.uibk.ac.at/studium/international/innsbruck/">Visit site</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Universität Innsbruck<i class="material-icons right">close</i></span>
+          <p>Location: Innsbruck, Austria </p>
+          <p>Tuition: $800 USD/semester </p>
+          <p>Enrollment: 26,000 </p>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div id="portuguese" class="col s12">
+        <div class="row">
+    <div class="col s12 m6 l4">
+      <div class="card hoverable">
+        <div class="card-image activator waves-effect waves-block waves-light">
+          <img class="activator" <%= image_tag("usp.jpg", :alt => "rss feed") %>
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4"> USP (São Paulo) <i class="material-icons right">more_vert</i></span>
+            <p><a href="http://www.usp.br/internationaloffice/en/index.php/admissions/undergraduate/exchange-student">Visit site</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4"> Universidade de São Paulo <i class="material-icons right">close</i></span>
+          <p>Location: São Paulo, Brazil</p>
+          <p>Tuition: free </p>
+          <p>Enrollment: 57,000</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l4">
+      <div class="card hoverable">
+        <div class="card-image activator waves-effect waves-block waves-light">
+          <img class="activator" <%= image_tag("ufrgs.jpg", :alt => "rss feed") %>
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">UFRGS<i class="material-icons right">more_vert</i></span>
+            <p><a href="http://www.ufrgs.br/relinter/english/applying-to-ufrgs">Visit site</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Universidade Federal Rio Grande do Sul<i class="material-icons right">close</i></span>
+          <p>Location: Porto Alegre, Brazil</p>
+          <p>Tuition: free </p>
+          <p>Enrollment: 30,000</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m6 l4">
+      <div class="card hoverable">
+        <div class="card-image activator waves-effect waves-block waves-light">
+          <img class="activator" <%= image_tag("unicamp.jpg", :alt => "rss feed") %>
+        </div>
+        <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4"> Unicamp (Campinas) <i class="material-icons right">more_vert</i></span>
+            <p><a href="http://www.unicamp.br/unicamp/international-relations-international-office/foreign-student-guide?language=en">Visit site (section 1.2)</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Universidade Estadual de Campinas<i class="material-icons right">close</i></span>
+          <p>Location: Campinas, Brazil </p>
+          <p>Tuition: free </p>
+          <p>Enrollment: 40,000 </p>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
   </div>
 </div>
-
 
