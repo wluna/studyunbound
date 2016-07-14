@@ -1,10 +1,6 @@
 Rails.application.routes.draw do
   root 'pages#home'
   get "home" => "pages#home"
-  get "english" => "pages#english"
-  get "spanish" => "pages#spanish"
-  get "german" => "pages#german"
-  get "portuguese" => "pages#portuguese"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
